@@ -67,7 +67,7 @@
           <input
             type="hidden"
             name="_next"
-            value="https://w-caue.github.io/portfolio/"
+            value="https://caueptfo.netlify.app"
           />
 
           <button
