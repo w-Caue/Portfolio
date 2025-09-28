@@ -4,21 +4,21 @@
       <ul class="sm:flex items-center gap-4 hidden">
         <li>
           <a
-            href=""
+            href="#skills"
             class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
             >Skills</a
           >
         </li>
         <li>
           <a
-            href=""
+            href="#project"
             class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
             >Projetos</a
           >
         </li>
         <li>
           <a
-            href=""
+            href="#contact"
             class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
             >Contato</a
           >
@@ -52,21 +52,21 @@
           <ul class="p-2">
             <li>
               <a
-                href=""
+                href="#skills"
                 class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
                 >Skills</a
               >
             </li>
             <li>
               <a
-                href=""
+                href="#project"
                 class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
                 >Projetos</a
               >
             </li>
             <li>
               <a
-                href=""
+                href="#contact"
                 class="hover:text-sm hover:text-[#79BFFA] hover:underline underline-offset-4 decoration-2 decoration-[#79BFFA] transition-all"
                 >Contato</a
               >
@@ -79,8 +79,7 @@
         <img class="w-12 sm:w-16" src="../assets/logo.png" alt="logo" />
       </a>
 
-      <div>
-      </div>
+      <div></div>
     </nav>
 
     <section class="font-bold grid sm:grid-cols-2 items-center py-3 px-5">

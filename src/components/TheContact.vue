@@ -1,5 +1,5 @@
 <template>
-  <section class="font-bold py-3 px-5 mx-2 my-16">
+  <section id="contact" class="font-bold py-3 px-5 mx-2 my-16">
     <div class="grid sm:grid-cols-2 items-center">
       <div>
         <div class="">

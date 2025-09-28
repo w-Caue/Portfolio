@@ -1,5 +1,5 @@
 <template>
-  <section class="font-bold py-3 px-5 mx-2 my-16">
+  <section id="skills" class="font-bold py-3 px-5 mx-2 my-16">
     <div class="">
       <h1 class="text-3xl">
         Minhas
@@ -7,9 +7,9 @@
       </h1>
     </div>
 
-    <div class="flex flex-col sm:flex-row gap-22 justify-center mt-4">
+    <div class="flex flex-col sm:flex-row gap-10 sm:gap-22 justify-center mt-4">
       <div class="space-y-3 w-72">
-        <h1 class="text-xl">
+        <h1 class="text-xl text-start">
           <span class="text-[#79BFFA]">Habilidades</span>
           técnicas
         </h1>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="space-y-3 w-72">
-        <h1 class="text-xl">
+        <h1 class="text-xl text-start">
           Habilidades
           <span class="text-[#79BFFA]">profissionais</span>
         </h1>

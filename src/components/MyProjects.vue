@@ -1,5 +1,5 @@
 <template>
-  <section class="font-bold py-3 px-5 mx-2 my-16">
+  <section id="project" class="font-bold py-3 px-5 mx-2 my-16">
     <div class="">
       <h1 class="text-3xl">
         Meus <span class="text-[#79BFFA]">Projetos</span>
@@ -22,7 +22,7 @@
       class="relative"
     >
       <SwiperSlide v-for="(project, index) in projects" :key="index">
-        <div class="bg-white w-72 rounded-xl p-4 mx-auto">
+        <div class="bg-white w-72 rounded-xl p-4 mx-auto cursor-pointer">
           <!-- Carrossel de imagens do produto -->
           <Swiper
             :modules="[Navigation]"
@@ -77,7 +77,10 @@
           </Swiper>
 
           <!-- Informações do produto -->
-          <div class="text-start font-bold">
+          <div
+            class="text-start font-bold"
+            onclick="window.open('{{ project.link }}', '_blank')"
+          >
             <h2 class="text-sm text-gray-500">{{ project.title }}</h2>
             <p class="">
               {{ project.description }}
@@ -86,11 +89,6 @@
             <h3 class="text-sm text-[#79BFFA]">
               {{ project.languages }}
             </h3>
-            <!-- 
-            <div class="font-semibold flex items-center gap-2 mt-2">
-              <p class="text-gray-400 line-through">R${{ project.antprice }}</p>
-              <h1>R$ {{ project.price }}</h1>
-            </div> -->
           </div>
         </div>
       </SwiperSlide>
@@ -151,36 +149,42 @@ const projects = [
     title: "Site",
     description: "IKIN Performace",
     languages: "VueJs / Tailwind",
+    link: "https://incomparable-blini-cfca5a.netlify.app",
     images: [new URL("@/assets/projects/logo-ikin.jpeg", import.meta.url).href],
   },
   {
     title: "Sistema",
     description: "Kanban",
     languages: "Laravel / Livewire / Tailwind",
+    link: "",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
   {
     title: "Sistema",
     description: "Ecommerce",
     languages: "Laravel / Livewire / Tailwind",
+    link: "https://github.com/w-Caue/ecommerce-laravel",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
   {
     title: "Sistema",
     description: "Cadastro",
     languages: "Java / Spring Boot",
+    link: "https://github.com/w-Caue/cadastro-usuario",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
   {
     title: "Sistema",
     description: "Comercial",
     languages: "Java",
+    link: "https://github.com/w-Caue/SistemaComercial",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
   {
     title: "Landing Page",
     description: "Landing Page Hamburguer",
     languages: "Html / Css / JavaScript",
+    link: "https://w-caue.github.io/LandingPage-Hamburguer/",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
 ];
