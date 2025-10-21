@@ -87,7 +87,7 @@
         <h3>Olá, me chamo</h3>
         <h1 class="text-[#79BFFA] text-3xl sm:text-6xl">Wanderson Cauê</h1>
         <h3 class="text-lg mx-1">
-          Full-<span class="text-[#79BFFA]">Stack</span>
+          Dev Full-<span class="text-[#79BFFA]">Stack</span>
         </h3>
 
         <p class="text-sm text-gray-600 ml-1 sm:mr-46">

@@ -77,10 +77,7 @@
           </Swiper>
 
           <!-- Informações do produto -->
-          <div
-            class="text-start font-bold"
-            onclick="window.open('{{ project.link }}', '_blank')"
-          >
+          <div @click="openLink(project.link)" class="text-start font-bold">
             <h2 class="text-sm text-gray-500">{{ project.title }}</h2>
             <p class="">
               {{ project.description }}
@@ -149,14 +146,14 @@ const projects = [
     title: "Site",
     description: "IKIN Performace",
     languages: "VueJs / Tailwind",
-    link: "https://incomparable-blini-cfca5a.netlify.app",
+    link: "https://ikin.netlify.app",
     images: [new URL("@/assets/projects/logo-ikin.jpeg", import.meta.url).href],
   },
   {
     title: "Sistema",
     description: "Kanban",
     languages: "Laravel / Livewire / Tailwind",
-    link: "",
+    link: "https://github.com/w-Caue",
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
   {
@@ -188,4 +185,9 @@ const projects = [
     images: [new URL("@/assets/projects/padrao.png", import.meta.url).href],
   },
 ];
+
+function openLink(url) {
+  const fullUrl = url.startsWith("http") ? url : `https://${url}`;
+  window.open(fullUrl, "_blank");
+}
 </script>
