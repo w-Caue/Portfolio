@@ -1,7 +1,9 @@
 <template>
-  <header>
-    <nav class="flex justify-between items-center py-3 px-5 font-bold">
-      <ul class="sm:flex items-center gap-4 hidden">
+  <header class="container m-auto">
+    <nav class="flex justify-center items-center py-3 px-5 font-bold">
+      <ul
+        class="sm:flex items-center gap-4 hidden p-3 shadow-lg border border-gray-100 rounded-full"
+      >
         <li>
           <a
             href="#skills"
@@ -74,60 +76,34 @@
           </ul>
         </div>
       </div>
-
-      <a href="">
-        <img class="w-12 sm:w-16" src="../assets/logo.png" alt="logo" />
-      </a>
-
-      <div></div>
     </nav>
 
-    <section class="font-bold grid sm:grid-cols-2 items-center py-3 px-5">
-      <div class="text-start space-y-2">
-        <h3>Olá, me chamo</h3>
-        <h1 class="text-[#79BFFA] text-3xl sm:text-6xl">Wanderson Cauê</h1>
-        <h3 class="text-lg mx-1">
-          Dev Full-<span class="text-[#79BFFA]">Stack</span>
-        </h3>
+    <section class="font-bold grid lg:grid-cols-2 items-center py-3 px-5">
+      <div class="text-start space-y-10">
+        <div class="text-start space-y-2">
+          <h3 class="mx-2 uppercase text-xs">Olá, me chamo</h3>
+          <h1 class="text-3xl sm:text-6xl uppercase">Cauê Sousa</h1>
+          <h3 class="mx-2 uppercase text-sm">
+            Desenvolvedor full-stack | PHP | Laravel | JavaScript | Java
+          </h3>
+        </div>
 
-        <p class="text-sm text-gray-600 ml-1 sm:mr-46">
+        <!-- <p class="text-sm text-gray-600 ml-1 sm:mr-46">
           Sou desenvolvedor com experiência no desenvolvimento de aplicações web
           modernas e escaláveis, atuando tanto no frontend quanto no backend
-        </p>
+        </p> -->
 
         <div>
           <a
             href="../assets/file/curriculo.pdf"
             download="curriculoCaue.pdf"
-            class="text-white text-sm bg-[#79BFFA] p-2 rounded-xl cursor-pointer hover:scale-95 transition-all"
+            class="text-white text-sm uppercase bg-[#2c3e50] py-2 px-5 rounded cursor-pointer hover:scale-95 transition-all"
           >
             Download CV
           </a>
         </div>
 
-        <div class="mt-10 space-x-4">
-          <button
-            onclick="window.open('https://www.instagram.com/caue_dev?igsh=NjJpMTBrM2xvZ2Vu', '_blank')"
-            class="text-[#79BFFA] p-2 cursor-pointer hover:bg-gray-100 rounded-full hover:scale-95 transition-all"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-instagram-icon lucide-instagram"
-            >
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-            </svg>
-          </button>
-
+        <div class="space-x-4">
           <button
             onclick="window.open('https://github.com/w-Caue', '_blank')"
             class="text-[#79BFFA] p-2 cursor-pointer hover:bg-gray-100 rounded-full hover:scale-95 transition-all"
@@ -179,8 +155,8 @@
 
       <div class="flex justify-center mt-4 sm:mt-0">
         <img
-          class="size-72 sm:size-96 object-cover rounded-full"
-          src="../assets/modelo2.jpeg"
+          class=" rounded-full"
+          src="../assets/img/ft-caue.png"
           alt="modelo"
         />
       </div>
