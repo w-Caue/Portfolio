@@ -1,21 +1,7 @@
-<template>
-  <TheHeader />
-  <WhatDo />
-  <MyProjects />
-  <AboutMe />
-  <MySkills />
-  <EducationExperience />
-  <TheContact />
-  <TheFooter />
-</template>
-
 <script>
 import TheHeader from "./components/TheHeader.vue";
-import WhatDo from "./components/WhatDo.vue";
-import MyProjects from "./components/MyProjects.vue";
 import AboutMe from "./components/AboutMe.vue";
-import MySkills from "./components/MySkills.vue";
-import EducationExperience from "./components/EducationExperience.vue";
+import MyProjects from "./components/MyProjects.vue";
 import TheContact from "./components/TheContact.vue";
 import TheFooter from "./components/TheFooter.vue";
 
@@ -23,16 +9,21 @@ export default {
   name: "App",
   components: {
     TheHeader,
-    WhatDo,
-    MyProjects,
     AboutMe,
-    MySkills,
-    EducationExperience,
+    MyProjects,
     TheContact,
     TheFooter
   },
 };
 </script>
+
+<template>
+  <TheHeader />
+  <AboutMe />
+  <MyProjects />
+  <TheContact />
+  <TheFooter />
+</template>
 
 <style>
 #app {
