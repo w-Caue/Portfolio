@@ -1,10 +1,6 @@
 <template>
-  <section id="project" class="font-bold py-3 px-5 mx-2 my-16">
-    <div class="">
-      <h1 class="text-3xl">
-        Meus <span class="text-[#79BFFA]">Projetos</span>
-      </h1>
-    </div>
+  <section id="project" class="container m-auto font-bold mt-32">
+    <h1 class="uppercase text-2xl">Meus Projetos</h1>
 
     <!-- Carrossel de Produtos -->
     <Swiper
@@ -16,8 +12,8 @@
       :breakpoints="{
         320: { slidesPerView: 1 },
         640: { slidesPerView: 2 },
-        1024: { slidesPerView: 4 },
-        1440: { slidesPerView: 5 },
+        1024: { slidesPerView: 3 },
+        1440: { slidesPerView: 4 },
       }"
       class="relative"
     >
@@ -142,13 +138,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const projects = [
-  {
-    title: "Site",
-    description: "IKIN Performace",
-    languages: "VueJs / Tailwind",
-    link: "https://ikin.netlify.app",
-    images: [new URL("@/assets/projects/logo-ikin.jpeg", import.meta.url).href],
-  },
   {
     title: "Sistema",
     description: "Kanban",

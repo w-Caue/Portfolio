@@ -1,18 +1,12 @@
 <template>
   <footer>
-    <div class="px-4 pt-16 bg-gray-100 md:px-24 lg:px-8">
-      <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="sm:col-span-2 flex flex-col justify-start">
-          <a
-            href="/"
-            aria-label="Go home"
-            title="Company"
-            class="inline-flex items-center"
-          >
-            <img class="w-22 rounded-lg" src="../assets/logo.png" alt="logo" />
-          </a>
+    <div class="px-4 pt-16 md:px-24 lg:px-8">
+      <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 items-center">
+        <div class="sm:col-span-2 text-start font-bold uppercase">
+          <h1 class="text-lg">Cauê Sousa</h1>
+          <p class="text-sm">Desenvolvedor Full Stack</p>
         </div>
-        <div class="space-y-2 font-bold">
+        <div class="space-y-2 font-bold uppercase">
           <p class="text-start">Contato</p>
 
           <div class="flex text-sm">
@@ -26,34 +20,12 @@
             >
           </div>
         </div>
-        <div>
-          <p class="text-start font-bold">Social</p>
+        <div class="uppercase">
+          <!-- <p class="text-start font-bold">Social</p> -->
           <div class="flex space-x-3">
             <button
-              onclick="window.open('https://www.instagram.com/caue_dev?igsh=NjJpMTBrM2xvZ2Vu', '_blank')"
-              class="text-gray-600 p-2 cursor-pointer hover:bg-gray-200 rounded-full hover:scale-95 transition-all"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-instagram-icon lucide-instagram"
-              >
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-              </svg>
-            </button>
-
-            <button
               onclick="window.open('https://github.com/w-Caue', '_blank')"
-              class="text-gray-600 p-2 cursor-pointer hover:bg-gray-200 rounded-full hover:scale-95 transition-all"
+              class="flex items-center gap-2 text-white text-sm uppercase py-2 px-3 bg-[#2c3e50] cursor-pointer rounded hover:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,11 +44,12 @@
                 />
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
+              <span>GitHub</span>
             </button>
 
             <button
-              onclick="window.open('https://www.linkedin.com/in/w-cauedev/', '_blank')"
-              class="text-gray-600 p-2 cursor-pointer hover:bg-gray-200 rounded-full hover:scale-95 transition-all"
+              onclick="window.open('https://www.linkedin.com/in/cauesousadev/', '_blank')"
+              class="flex items-center gap-2 text-white text-sm uppercase py-2 px-3 bg-[#2c3e50] cursor-pointer rounded hover:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +69,8 @@
                 <rect width="4" height="12" x="2" y="9" />
                 <circle cx="4" cy="4" r="2" />
               </svg>
+
+              <span>linkedin</span>
             </button>
           </div>
         </div>
@@ -103,7 +78,9 @@
       <div
         class="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-gray-200 lg:flex-row"
       >
-        <p class="text-sm text-gray-600 font-bold">© Copyright 2025</p>
+        <p class="text-xs uppercase font-bold">
+          © 2026 Wanderson Cauê. Todos os direitos reservados.
+        </p>
       </div>
     </div>
   </footer>

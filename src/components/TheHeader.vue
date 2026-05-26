@@ -132,10 +132,10 @@
             Download CV
           </a>
 
-          <div class="space-x-4">
+          <div class="flex space-x-4">
             <button
               onclick="window.open('https://github.com/w-Caue', '_blank')"
-              class="text-white p-2 bg-[#2c3e50] cursor-pointer rounded-full hover:scale-95 transition-all"
+              class="flex items-center gap-2 text-white text-sm uppercase py-2 px-5 bg-[#2c3e50] cursor-pointer rounded-full hover:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -154,11 +154,12 @@
                 />
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
+              <span class="hidden sm:block">GitHub</span>
             </button>
 
             <button
               onclick="window.open('https://www.linkedin.com/in/cauesousadev/', '_blank')"
-              class="text-white p-2 bg-[#2c3e50] cursor-pointer rounded-full hover:scale-95 transition-all"
+              class="flex items-center gap-2 text-white text-sm uppercase py-2 px-5 bg-[#2c3e50] cursor-pointer rounded-full hover:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -178,6 +179,8 @@
                 <rect width="4" height="12" x="2" y="9" />
                 <circle cx="4" cy="4" r="2" />
               </svg>
+
+              <span class="hidden sm:block">linkedin</span>
             </button>
           </div>
         </div>

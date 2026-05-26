@@ -4,12 +4,14 @@ import AboutMe from "./components/AboutMe.vue";
 import MyProjects from "./components/MyProjects.vue";
 import TheContact from "./components/TheContact.vue";
 import TheFooter from "./components/TheFooter.vue";
+import ExperienceSection from "./components/ExperienceSection.vue";
 
 export default {
   name: "App",
   components: {
     TheHeader,
     AboutMe,
+    ExperienceSection,
     MyProjects,
     TheContact,
     TheFooter
@@ -20,6 +22,7 @@ export default {
 <template>
   <TheHeader />
   <AboutMe />
+  <ExperienceSection />
   <MyProjects />
   <TheContact />
   <TheFooter />
