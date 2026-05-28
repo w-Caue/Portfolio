@@ -2,7 +2,7 @@
 import TheHeader from "./components/TheHeader.vue";
 import AboutMe from "./components/AboutMe.vue";
 import MyProjects from "./components/MyProjects.vue";
-import TheContact from "./components/TheContact.vue";
+// import TheContact from "./components/TheContact.vue";
 import TheFooter from "./components/TheFooter.vue";
 import ExperienceSection from "./components/ExperienceSection.vue";
 
@@ -13,7 +13,7 @@ export default {
     AboutMe,
     ExperienceSection,
     MyProjects,
-    TheContact,
+    // TheContact,
     TheFooter
   },
 };
@@ -24,7 +24,7 @@ export default {
   <AboutMe />
   <ExperienceSection />
   <MyProjects />
-  <TheContact />
+  <!-- <TheContact /> -->
   <TheFooter />
 </template>
 

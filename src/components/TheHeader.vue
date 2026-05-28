@@ -125,8 +125,7 @@
 
         <div class="flex items-center gap-4">
           <a
-            href="../assets/file/curriculo.pdf"
-            download="curriculoCaue.pdf"
+            @click="visualizarCurriculo"
             class="text-white text-sm uppercase bg-[#2c3e50] py-2 px-5 rounded cursor-pointer hover:scale-95 transition-all"
           >
             Download CV
@@ -197,13 +196,13 @@
   </header>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      menuNav: false,
-    };
-  },
+<script setup>
+import { ref } from "vue";
+
+const menuNav = ref(false);
+
+const visualizarCurriculo = () => {
+  window.open("/currículo-caue.pdf", "_blank");
 };
 </script>
 
