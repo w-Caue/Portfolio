@@ -100,7 +100,7 @@
           </span>
 
           <span class="mt-1 block truncate text-sm text-[#2c3e50] group-hover:text-[#79BFFA] transition-colors">
-            developercaue@email.com
+            developercaue@gmail.com
           </span>
         </div>
       </a>

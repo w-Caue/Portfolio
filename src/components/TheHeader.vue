@@ -173,11 +173,13 @@
 
           <a href="https://github.com/w-Caue" target="_blank" rel="noopener noreferrer"
             class="flex items-center gap-2 text-[#2c3e50] text-sm uppercase font-bold border border-gray-200 py-3 px-5 rounded-full hover:border-[#79BFFA] hover:text-[#79BFFA] transition-all">
+            <i class="fa-brands fa-github text-lg"></i>
             GitHub
           </a>
 
           <a href="https://www.linkedin.com/in/cauesousadev/" target="_blank" rel="noopener noreferrer"
             class="flex items-center gap-2 text-[#2c3e50] text-sm uppercase font-bold border border-gray-200 py-3 px-5 rounded-full hover:border-[#79BFFA] hover:text-[#79BFFA] transition-all">
+            <i class="fa-brands fa-linkedin-in text-lg"></i>
             LinkedIn
           </a>
         </div>
