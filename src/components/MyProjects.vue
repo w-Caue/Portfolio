@@ -73,110 +73,125 @@
       <SwiperSlide>
         <article
           class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-        
-          <div class="relative h-56 bg-gray-100 overflow-hidden">
-            <img src="../assets/projects/project-1.png"
-              alt="Sistema de gerenciamento desenvolvido com Java e Spring Boot"
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
 
-            <div class="absolute top-4 left-4 bg-[#2c3e50] text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
-              Java / Back-end
+          <div class="relative h-56 bg-[#2c3e50] overflow-hidden">
+
+            <div class="absolute -right-16 -top-16 w-40 h-40 rounded-full border border-[#79BFFA]/10"></div>
+
+            <div class="absolute -left-20 -bottom-20 w-48 h-48 rounded-full border border-[#79BFFA]/10"></div>
+            <div class="relative h-full flex flex-col justify-center px-6">
+              <div class="flex items-center gap-3">
+
+                <i class="devicon-java-plain text-4xl text-[#79BFFA]"></i>
+
+                <i class="devicon-spring-original text-4xl text-[#79BFFA]"></i>
+
+                <div class="h-8 w-px bg-white/10"></div>
+
+                <span class="text-[10px] uppercase tracking-[0.2em] text-gray-300">
+                  Back-end
+                </span>
+
+              </div>
+
+              <!-- Endpoints -->
+              <div class="mt-5 space-y-1.5 font-mono text-[10px]">
+
+                <div class="flex items-center gap-2">
+                  <span class="text-[#79BFFA] w-10">
+                    GET
+                  </span>
+
+                  <span class="text-gray-400">
+                    /agendamentos
+                  </span>
+
+                  <span class="text-green-400 ml-auto">
+                    200
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <span class="text-[#79BFFA] w-10">
+                    POST
+                  </span>
+
+                  <span class="text-gray-400">
+                    /agendamentos
+                  </span>
+
+                  <span class="text-green-400 ml-auto">
+                    201
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <span class="text-[#79BFFA] w-10">
+                    PUT
+                  </span>
+
+                  <span class="text-gray-400">
+                    /agendamentos/{cliente}
+                  </span>
+
+                  <span class="text-green-400 ml-auto">
+                    200
+                  </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                  <span class="text-[#79BFFA] w-10">
+                    DELETE
+                  </span>
+
+                  <span class="text-gray-400">
+                    /agendamentos/{cliente}
+                  </span>
+
+                  <span class="text-green-400 ml-auto">
+                    204
+                  </span>
+                </div>
+
+              </div>
+
+              <div class="absolute top-4 right-4">
+                <span
+                  class="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 text-white text-[9px] uppercase px-3 py-1.5 rounded-full">
+                  <span class="w-1.5 h-1.5 rounded-full bg-[#79BFFA]"></span>
+
+                  REST API
+                </span>
+              </div>
+
             </div>
           </div>
 
           <div class="p-6">
 
-            <h3 class="text-xl uppercase text-[#2c3e50]">
-              Sistema de Gerenciamento
-            </h3>
+            <div class="flex items-start justify-between gap-4">
 
-            <p class="mt-3 text-sm text-gray-500 font-normal leading-relaxed">
-              Aplicação desenvolvida para gerenciamento de usuários,
-              produtos e pedidos, utilizando uma arquitetura organizada
-              e uma API REST.
-            </p>
+              <div>
+                <span class="text-[9px] uppercase tracking-widest text-[#79BFFA]">
+                  Backend
+                </span>
 
-            <div class="mt-5 space-y-2">
-              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
-                <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                Autenticação e autorização
+                <h3 class="mt-1 text-xl uppercase text-[#2c3e50]">
+                  Agendamentos - API REST
+                </h3>
               </div>
 
-              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
-                <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                CRUD completo
+              <div class="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50">
+                <i class="fa-solid fa-server text-sm text-[#2c3e50]"></i>
               </div>
 
-              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
-                <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                Integração com MySQL
-              </div>
             </div>
 
-            <div class="flex flex-wrap gap-2 mt-6">
-
-              <span
-                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                <i class="devicon-java-plain colored"></i>
-                Java
-              </span>
-
-              <span
-                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                <i class="devicon-spring-original colored"></i>
-                Spring Boot
-              </span>
-
-              <span
-                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                <i class="devicon-mysql-original colored"></i>
-                MySQL
-              </span>
-
-            </div>
-
-            <div class="flex items-center gap-3 mt-7">
-
-              <a href="#" target="_blank"
-                class="flex items-center gap-2 text-xs uppercase text-white bg-[#2c3e50] px-5 py-2.5 rounded-full hover:bg-[#79BFFA] hover:text-[#2c3e50] transition-all">
-                <i class="fa-brands fa-github"></i>
-                GitHub
-              </a>
-
-              <a href="#" target="_blank"
-                class="flex items-center gap-2 text-xs uppercase text-[#2c3e50] border border-gray-200 px-5 py-2.5 rounded-full hover:border-[#79BFFA] hover:bg-[#79BFFA] transition-all">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Demo
-              </a>
-
-            </div>
-          </div>
-        </article>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <article
-          class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-
-          <div class="relative h-56 bg-gray-100 overflow-hidden">
-            <img src="../assets/projects/project-2.png" alt="API REST desenvolvida com Java e Spring Boot"
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-
-            <div class="absolute top-4 left-4 bg-[#2c3e50] text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
-              Java / API
-            </div>
-          </div>
-
-          <div class="p-6">
-
-            <h3 class="text-xl uppercase text-[#2c3e50]">
-              API REST
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 font-normal leading-relaxed">
-              API REST desenvolvida com Spring Boot para gerenciamento
-              de recursos, utilizando boas práticas de desenvolvimento
-              e persistência de dados.
+            <p class="mt-4 text-sm text-gray-500 font-normal leading-relaxed">
+              API REST desenvolvida com Java e Spring Boot para
+              um controle de agendamentos, aplicando arquitetura em
+              camadas, validação de dados e persistência com banco
+              de dados relacional.
             </p>
 
             <div class="mt-5 space-y-2">
@@ -193,7 +208,12 @@
 
               <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
                 <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                Banco de dados relacional
+                Arquitetura em camadas
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Persistência de dados
               </div>
 
             </div>
@@ -214,23 +234,143 @@
 
               <span
                 class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                REST
+                <i class="devicon-hibernate-plain colored"></i>
+                JPA
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-mysql-plain colored"></i>
+                MySQL
               </span>
 
             </div>
 
             <div class="flex items-center gap-3 mt-7">
 
-              <a href="#" target="_blank"
+              <a href="https://github.com/w-Caue/controle-agendamentos" target="_blank" rel="noopener noreferrer"
                 class="flex items-center gap-2 text-xs uppercase text-white bg-[#2c3e50] px-5 py-2.5 rounded-full hover:bg-[#79BFFA] hover:text-[#2c3e50] transition-all">
                 <i class="fa-brands fa-github"></i>
                 GitHub
               </a>
 
-              <a href="#" target="_blank"
+              <!-- <a href="#" target="_blank" rel="noopener noreferrer"
                 class="flex items-center gap-2 text-xs uppercase text-[#2c3e50] border border-gray-200 px-5 py-2.5 rounded-full hover:border-[#79BFFA] hover:bg-[#79BFFA] transition-all">
+                <i class="fa-solid fa-book-open"></i>
+                Documentação
+              </a> -->
+
+            </div>
+
+          </div>
+        </article>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <article
+          class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+
+          <div class="relative h-56 bg-gray-100 overflow-hidden">
+
+            <img src="../assets/projects/project-codestudio.png" alt="Preview do site desenvolvido para empresa"
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+
+            <div class="absolute inset-0 bg-[#2c3e50]/0 group-hover:bg-[#2c3e50]/20 transition-all duration-300"></div>
+
+            <div class="absolute top-4 left-4">
+              <span
+                class="flex items-center gap-2 bg-[#2c3e50]/90 backdrop-blur-sm text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
+                <span class="w-1.5 h-1.5 bg-[#79BFFA] rounded-full"></span>
+                Site Online
+              </span>
+            </div>
+
+            <div class="absolute top-4 right-4">
+              <span
+                class="flex items-center gap-2 bg-white/90 backdrop-blur-sm text-[#2c3e50] text-[9px] uppercase px-3 py-1.5 rounded-full">
+                <i class="fa-solid fa-globe"></i>
+                Online
+              </span>
+            </div>
+
+          </div>
+
+          <div class="p-6">
+
+            <div class="flex items-start justify-between gap-4">
+
+              <div>
+                <span class="text-[9px] uppercase tracking-widest text-[#79BFFA]">
+                  Front-end
+                </span>
+
+                <h3 class="text-xl uppercase text-[#2c3e50]">
+                  Code Studio - site
+                </h3>
+              </div>
+
+              <div class="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50">
+                <i class="fa-solid fa-globe text-sm text-[#2c3e50]"></i>
+              </div>
+
+            </div>
+
+            <p class="mt-4 text-sm text-gray-500 font-normal leading-relaxed">
+              Site institucional desenvolvido com foco em criação de sites, landing pages e sistemas personalizados.
+            </p>
+
+            <div class="mt-5 space-y-2">
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Design responsivo
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Interface moderna
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Otimizado para dispositivos móveis
+              </div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-2 mt-6">
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-angularjs-plain colored"></i>
+                AngularJs
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-tailwindcss-plain colored"></i>
+                Tailwind CSS
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-javascript-plain colored"></i>
+                JavaScript
+              </span>
+
+            </div>
+
+            <div class="flex items-center gap-3 mt-7">
+              <a href="https://codestudiolabs.netlify.app/" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs uppercase text-white bg-[#2c3e50] px-5 py-2.5 rounded-full hover:bg-[#79BFFA] hover:text-[#2c3e50] transition-all">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Demo
+                Ver site
+              </a>
+
+              <a href="https://github.com/w-Caue/code-studio-labs" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs uppercase text-[#2c3e50] border border-gray-200 px-5 py-2.5 rounded-full hover:border-[#79BFFA] hover:bg-[#79BFFA] transition-all">
+                <i class="fa-brands fa-github"></i>
+                github
               </a>
 
             </div>
@@ -244,51 +384,75 @@
           class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
 
           <div class="relative h-56 bg-gray-100 overflow-hidden">
-            <img src="../assets/projects/project-3.png" alt="Aplicação web desenvolvida com Laravel e Vue.js"
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
 
-            <div class="absolute top-4 left-4 bg-[#2c3e50] text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
-              Full Stack
+            <img src="../assets/projects/project-hashem.png" alt="Preview do site desenvolvido para empresa"
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+
+            <div class="absolute inset-0 bg-[#2c3e50]/0 group-hover:bg-[#2c3e50]/20 transition-all duration-300"></div>
+
+            <div class="absolute top-4 left-4">
+              <span
+                class="flex items-center gap-2 bg-[#2c3e50]/90 backdrop-blur-sm text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
+                <span class="w-1.5 h-1.5 bg-[#79BFFA] rounded-full"></span>
+                Site Online
+              </span>
             </div>
+
+            <div class="absolute top-4 right-4">
+              <span
+                class="flex items-center gap-2 bg-white/90 backdrop-blur-sm text-[#2c3e50] text-[9px] uppercase px-3 py-1.5 rounded-full">
+                <i class="fa-solid fa-globe"></i>
+                Online
+              </span>
+            </div>
+
           </div>
 
           <div class="p-6">
 
-            <h3 class="text-xl uppercase text-[#2c3e50]">
-              Aplicação Web
-            </h3>
+            <div class="flex items-start justify-between gap-4">
 
-            <p class="mt-3 text-sm text-gray-500 font-normal leading-relaxed">
-              Aplicação web desenvolvida utilizando Laravel no Back-end
-              e Vue.js no Front-end, com integração através de APIs.
+              <div>
+                <span class="text-[9px] uppercase tracking-widest text-[#79BFFA]">
+                  Front-end
+                </span>
+
+                <h3 class="text-xl uppercase text-[#2c3e50]">
+                  Hashem - site
+                </h3>
+              </div>
+
+              <div class="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50">
+                <i class="fa-solid fa-globe text-sm text-[#2c3e50]"></i>
+              </div>
+
+            </div>
+
+            <p class="mt-4 text-sm text-gray-500 font-normal leading-relaxed">
+              Site desenvolvido para uma academia de jiu-jistu e muay thai com foco em formar atletas e cidadãos através
+              da disciplina, respeito e perseverança.
             </p>
 
             <div class="mt-5 space-y-2">
 
               <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
                 <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                Interface responsiva
+                Design responsivo
               </div>
 
               <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
                 <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                API REST
+                Tecnologias de alta performace
               </div>
 
               <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
                 <i class="fa-solid fa-check text-[#79BFFA]"></i>
-                Banco de dados MySQL
+                Otimizado para dispositivos móveis
               </div>
 
             </div>
 
             <div class="flex flex-wrap gap-2 mt-6">
-
-              <span
-                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                <i class="devicon-laravel-original colored"></i>
-                Laravel
-              </span>
 
               <span
                 class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
@@ -298,24 +462,23 @@
 
               <span
                 class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
-                <i class="devicon-mysql-original colored"></i>
-                MySQL
+                <i class="devicon-tailwindcss-plain colored"></i>
+                Tailwind CSS
               </span>
 
             </div>
 
             <div class="flex items-center gap-3 mt-7">
-
-              <a href="#" target="_blank"
+              <a href="https://hashemyhwh.netlify.app" target="_blank" rel="noopener noreferrer"
                 class="flex items-center gap-2 text-xs uppercase text-white bg-[#2c3e50] px-5 py-2.5 rounded-full hover:bg-[#79BFFA] hover:text-[#2c3e50] transition-all">
-                <i class="fa-brands fa-github"></i>
-                GitHub
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Ver site
               </a>
 
-              <a href="#" target="_blank"
+              <a href="https://github.com/w-Caue/hashem-site" target="_blank" rel="noopener noreferrer"
                 class="flex items-center gap-2 text-xs uppercase text-[#2c3e50] border border-gray-200 px-5 py-2.5 rounded-full hover:border-[#79BFFA] hover:bg-[#79BFFA] transition-all">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Demo
+                <i class="fa-brands fa-github"></i>
+                github
               </a>
 
             </div>
@@ -323,7 +486,6 @@
           </div>
         </article>
       </SwiperSlide>
-
     </Swiper>
 
     <div class="mt-10 flex items-center justify-center gap-2 text-xs uppercase text-gray-400">
