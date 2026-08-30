@@ -74,6 +74,138 @@
         <article
           class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
 
+          <div class="relative h-56 bg-gray-100 overflow-hidden">
+
+            <img src="../assets/projects/project-product.png" alt="Preview do site desenvolvido para empresa"
+              class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+
+            <div class="absolute inset-0 bg-[#2c3e50]/0 group-hover:bg-[#2c3e50]/20 transition-all duration-300"></div>
+
+            <div class="absolute top-4 left-4">
+              <span
+                class="flex items-center gap-2 bg-[#2c3e50]/90 backdrop-blur-sm text-white text-[10px] uppercase px-3 py-1.5 rounded-full">
+                <span class="w-1.5 h-1.5 bg-[#79BFFA] rounded-full"></span>
+                Sistema Online
+              </span>
+            </div>
+
+            <div class="absolute top-4 right-4">
+              <span
+                class="flex items-center gap-2 bg-white/90 backdrop-blur-sm text-[#2c3e50] text-[9px] uppercase px-3 py-1.5 rounded-full">
+                <i class="fa-solid fa-globe"></i>
+                Online
+              </span>
+            </div>
+
+          </div>
+
+          <div class="p-6">
+
+            <div class="flex items-start justify-between gap-4">
+
+              <div>
+                <span class="text-[9px] uppercase tracking-widest text-[#79BFFA]">
+                  Front-end + Back-end
+                </span>
+
+                <h3 class="text-xl uppercase text-[#2c3e50]">
+                  Product Manager - sistema
+                </h3>
+              </div>
+
+              <div class="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50">
+                <i class="fa-solid fa-globe text-sm text-[#2c3e50]"></i>
+              </div>
+
+            </div>
+
+            <p class="mt-4 text-sm text-gray-500 font-normal leading-relaxed">
+              Sistema web para gerenciamento de produtos, desenvolvido com Vue.js no frontend e Java + Spring Boot no
+              backend. O projeto foi desenvolvido com foco em demonstrar na prática a construção de uma aplicação full
+              stack.
+            </p>
+
+            <div class="mt-5 space-y-2">
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Design responsivo
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Autenticação JWT
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                Operações CRUD
+              </div>
+
+              <div class="flex items-center gap-2 text-xs text-gray-500 font-normal">
+                <i class="fa-solid fa-check text-[#79BFFA]"></i>
+                consumo de API REST
+              </div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-2 mt-6">
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-java-plain colored"></i>
+                Java
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-spring-original colored"></i>
+                Spring Boot
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-vuejs-plain colored"></i>
+                Vue.js
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-tailwindcss-plain colored"></i>
+                Tailwind CSS
+              </span>
+
+              <span
+                class="flex items-center gap-1.5 text-[10px] uppercase bg-gray-50 border border-gray-100 px-3 py-1.5 rounded-full">
+                <i class="devicon-mysql-plain colored"></i>
+                MySQL
+              </span>
+
+            </div>
+
+            <div class="flex items-center gap-3 mt-7">
+              <a href="https://product-front.netlify.app/" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs uppercase text-white bg-[#2c3e50] px-5 py-2.5 rounded-full hover:bg-[#79BFFA] hover:text-[#2c3e50] transition-all">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Demo
+              </a>
+
+              <a href="https://github.com/w-Caue/front-product-erp" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs uppercase text-[#2c3e50] border border-gray-200 px-5 py-2.5 rounded-full hover:border-[#79BFFA] hover:bg-[#79BFFA] transition-all">
+                <i class="fa-brands fa-github"></i>
+                github
+              </a>
+
+            </div>
+
+          </div>
+        </article>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <article
+          class="group h-full bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+
           <div class="relative h-56 bg-[#2c3e50] overflow-hidden">
 
             <div class="absolute -right-16 -top-16 w-40 h-40 rounded-full border border-[#79BFFA]/10"></div>
