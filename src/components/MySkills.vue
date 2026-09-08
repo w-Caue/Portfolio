@@ -200,6 +200,22 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
+                    <i class="devicon-angularjs-plain colored text-4xl"></i>
+
+                    <h4 class="text-xs uppercase text-[#2c3e50]">
+                        AngularJs
+                    </h4>
+
+                    <span class="text-[10px] uppercase text-gray-400 font-normal">
+                        Framework
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 p-5
+                 bg-gray-50 border border-gray-100 rounded-xl
+                 hover:bg-white hover:border-[#79BFFA]/50
+                 hover:shadow-md hover:-translate-y-1
+                 transition-all duration-300 text-center">
                     <i class="devicon-html5-plain colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">

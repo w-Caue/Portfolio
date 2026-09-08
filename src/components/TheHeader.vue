@@ -192,7 +192,7 @@
           <div class="absolute -inset-3 border-2 border-[#79BFFA]/40 rounded-full"></div>
 
           <img class="relative w-64 h-64 sm:w-96 sm:h-96 object-cover rounded-full border-8 border-white shadow-2xl"
-            src="../assets/img/ft-caue.png" alt="Cauê Sousa - Desenvolvedor Back-end Java" />
+            src="../assets/img/ft-caue.jpeg" alt="Cauê Sousa - Desenvolvedor Back-end Java" />
             
           <div
             class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white shadow-lg border border-gray-100 rounded-full px-5 py-2 whitespace-nowrap">
