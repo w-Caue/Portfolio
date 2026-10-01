@@ -132,18 +132,18 @@
 
           <h2 class="text-lg sm:text-2xl text-[#2c3e50] font-bold uppercase">
             Desenvolvedor
-            <span class="text-[#79BFFA]">Back-end Java</span>
+            <span class="text-[#79BFFA]">Full-Stack</span>
           </h2>
 
           <div class="flex flex-wrap gap-2 pt-2">
             <span
               class="text-xs uppercase font-semibold text-[#2c3e50] border border-gray-200 px-3 py-1.5 rounded-full">
-              Java
+              PHP
             </span>
 
             <span
               class="text-xs uppercase font-semibold text-[#2c3e50] border border-gray-200 px-3 py-1.5 rounded-full">
-              Spring Boot
+              Laravel
             </span>
 
             <span
@@ -154,9 +154,9 @@
         </div>
 
         <p class="max-w-xl text-sm sm:text-base leading-relaxed text-gray-600">
-          Desenvolvedor focado na construção de APIs REST e aplicações web
-          utilizando Java e Spring Boot, com experiência em desenvolvimento
-          Full Stack e tecnologias como PHP, Laravel e Vue.js.
+          Desenvolvedor Full Stack com foco em PHP e Laravel, com experiência na construção de sites, sistemas web e
+          APIs REST. Possuo conhecimento em desenvolvimento de aplicações completas, integração entre sistemas e criação
+          de soluções eficientes e escaláveis, utilizando também tecnologias como JavaScript, Vue.js e MySQL.
         </p>
 
         <div class="flex flex-wrap items-center gap-3">
@@ -193,11 +193,11 @@
 
           <img class="relative w-64 h-64 sm:w-96 sm:h-96 object-cover rounded-full border-8 border-white shadow-2xl"
             src="../assets/img/ft-caue.jpeg" alt="Cauê Sousa - Desenvolvedor Back-end Java" />
-            
+
           <div
             class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white shadow-lg border border-gray-100 rounded-full px-5 py-2 whitespace-nowrap">
             <span class="text-xs font-bold uppercase text-[#2c3e50]">
-              Java • Spring Boot
+              PHP • Laravel
             </span>
           </div>
         </div>

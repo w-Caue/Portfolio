@@ -44,6 +44,22 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
+                    <i class="devicon-php-plain colored text-4xl"></i>
+
+                    <h4 class="text-xs uppercase text-[#2c3e50]">
+                        PHP
+                    </h4>
+
+                    <span class="text-[10px] uppercase text-gray-400 font-normal">
+                        Back-end
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 p-5
+                 bg-gray-50 border border-gray-100 rounded-xl
+                 hover:bg-white hover:border-[#79BFFA]/50
+                 hover:shadow-md hover:-translate-y-1
+                 transition-all duration-300 text-center">
                     <i class="devicon-java-plain colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">
@@ -122,22 +138,6 @@
 
                     <span class="text-[10px] uppercase text-gray-400 font-normal">
                         Integração
-                    </span>
-                </div>
-
-                <div class="flex flex-col items-center justify-center gap-3 p-5
-                 bg-gray-50 border border-gray-100 rounded-xl
-                 hover:bg-white hover:border-[#79BFFA]/50
-                 hover:shadow-md hover:-translate-y-1
-                 transition-all duration-300 text-center">
-                    <i class="devicon-php-plain colored text-4xl"></i>
-
-                    <h4 class="text-xs uppercase text-[#2c3e50]">
-                        PHP
-                    </h4>
-
-                    <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Back-end
                     </span>
                 </div>
 
@@ -414,18 +414,20 @@
                 <span class="text-xs uppercase tracking-widest text-[#79BFFA]">
                     Foco profissional
                 </span>
-
+                
                 <h3 class="mt-2 text-xl sm:text-2xl uppercase text-white">
-                    Java + Spring Boot
+                    PHP + Laravel
                 </h3>
 
-                <p class="mt-2 text-sm text-gray-300 font-normal
-                 leading-relaxed max-w-xl">
-                    Atualmente direcionando meus estudos e projetos para o desenvolvimento
-                    Back-end, APIs REST, segurança, persistência de dados e boas práticas
-                    utilizando o ecossistema Java.
+                <p class="mt-2 text-sm text-gray-300 font-normal leading-relaxed max-w-xl">
+                    Experiência no desenvolvimento de sites, sistemas web e APIs REST,
+                    utilizando PHP e Laravel, com foco em regras de negócio, integração
+                    entre sistemas, persistência de dados e construção de aplicações
+                    eficientes, seguras e de fácil manutenção.
                 </p>
+
             </div>
+
 
             <a href="#project" class="shrink-0 inline-flex items-center justify-center gap-2
                bg-[#79BFFA] text-[#2c3e50]

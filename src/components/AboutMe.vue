@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="container mx-auto px-5 py-24 font-bold">
-    
+
     <div class="max-w-3xl mb-12">
       <span class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#79BFFA]">
         <span class="w-2 h-2 bg-[#79BFFA] rounded-full"></span>
@@ -16,34 +16,34 @@
     </div>
 
     <div class="grid lg:grid-cols-3 gap-8 items-start">
-    
+
       <div class="lg:col-span-2 bg-gray-50 rounded-2xl p-6 sm:p-8 border border-gray-100">
         <div class="space-y-5 text-sm sm:text-base leading-relaxed text-gray-600 font-normal">
           <p>
             Sou desenvolvedor de software com foco em
             <strong class="text-[#2c3e50]">
-              Java e Spring Boot
+              PHP e Laravel
             </strong>,
             apaixonado por transformar ideias e necessidades de negócio em
             aplicações eficientes, seguras e de fácil manutenção.
           </p>
 
           <p>
-            Atualmente venho aprofundando meus conhecimentos no desenvolvimento
-            <strong class="text-[#2c3e50]">Back-end</strong>, trabalhando com
-            Java, Spring Boot, Spring Security, JPA/Hibernate, MySQL e APIs REST,
-            aplicando conceitos de Programação Orientada a Objetos,
-            arquitetura em camadas e boas práticas de desenvolvimento.
+            Possuo experiência no desenvolvimento de
+            <strong class="text-[#2c3e50]">sites, sistemas web e APIs REST</strong>,
+            utilizando PHP e Laravel para construir soluções completas, desde as
+            regras de negócio e integrações até a persistência de dados. Também
+            trabalho com MySQL, JavaScript, Vue.js e Livewire, buscando sempre
+            aplicar boas práticas e desenvolver aplicações organizadas e escaláveis.
           </p>
 
           <p>
-            Também possuo experiência com
+            Também venho aprofundando meus conhecimentos em
             <strong class="text-[#2c3e50]">
-              PHP, Laravel, JavaScript, Vue.js e Livewire
+              Java e Spring Boot
             </strong>,
-            o que me proporciona uma visão completa do desenvolvimento de
-            aplicações web, desde a interface até as regras de negócio,
-            APIs e persistência de dados.
+            trabalhando com Spring Security, JPA/Hibernate, APIs REST,
+            Programação Orientada a Objetos e arquitetura em camadas.
           </p>
 
           <p>
@@ -51,6 +51,7 @@
             É entender o problema, pensar na melhor solução, construir uma
             aplicação sustentável e estar sempre disposto a evoluir.
           </p>
+
         </div>
 
         <div class="mt-8 p-5 bg-white border border-gray-100 rounded-xl">
@@ -65,21 +66,24 @@
               </h3>
 
               <span class="text-xs text-[#79BFFA] uppercase">
-                Java Back-end
+                PHP / Laravel
               </span>
             </div>
+
           </div>
 
           <p class="text-sm text-gray-600 leading-relaxed font-normal">
             Atuar como
             <strong class="text-[#2c3e50]">
-              Desenvolvedor Java Back-end
+              Desenvolvedor Full Stack
             </strong>,
-            contribuindo para a construção de aplicações robustas, escaláveis
-            e de alta qualidade, enquanto continuo evoluindo tecnicamente
-            através de desafios reais.
+            contribuindo no desenvolvimento de sites, sistemas web e APIs REST
+            utilizando PHP e Laravel, aplicando boas práticas de desenvolvimento
+            e buscando construir soluções eficientes, seguras e de fácil manutenção,
+            enquanto continuo evoluindo tecnicamente através de desafios reais.
           </p>
         </div>
+
       </div>
 
       <div class="space-y-4">
@@ -96,12 +100,12 @@
         <div
           class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
           <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="devicon-java-plain colored text-3xl"></i>
+            <i class="devicon-php-plain colored text-3xl"></i>
           </div>
 
           <div>
             <h4 class="uppercase text-sm text-[#2c3e50]">
-              Java
+              PHP
             </h4>
 
             <p class="text-xs text-gray-500 font-normal mt-1">
@@ -113,12 +117,12 @@
         <div
           class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
           <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="devicon-spring-original colored text-3xl"></i>
+            <i class="devicon-laravel-original colored text-3xl"></i>
           </div>
 
           <div>
             <h4 class="uppercase text-sm text-[#2c3e50]">
-              Spring Boot
+              Laravel
             </h4>
 
             <p class="text-xs text-gray-500 font-normal mt-1">
@@ -232,7 +236,7 @@
     </div>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
-   
+
       <div class="group p-5 bg-[#2c3e50] rounded-xl text-white hover:-translate-y-1 transition-transform">
         <i class="fa-solid fa-code text-[#79BFFA] text-xl"></i>
 
