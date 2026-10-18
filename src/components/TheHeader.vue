@@ -108,7 +108,7 @@
 
           <div class="mt-auto">
             <p class="text-xs uppercase text-gray-400">
-              Desenvolvedor Back-end Java
+              Desenvolvedor Full Stack
             </p>
 
             <div class="h-1 w-12 bg-[#79BFFA] rounded-full mt-2"></div>
@@ -138,25 +138,20 @@
           <div class="flex flex-wrap gap-2 pt-2">
             <span
               class="text-xs uppercase font-semibold text-[#2c3e50] border border-gray-200 px-3 py-1.5 rounded-full">
-              PHP
+              NestJs
             </span>
 
             <span
               class="text-xs uppercase font-semibold text-[#2c3e50] border border-gray-200 px-3 py-1.5 rounded-full">
-              Laravel
-            </span>
-
-            <span
-              class="text-xs uppercase font-semibold text-[#2c3e50] border border-gray-200 px-3 py-1.5 rounded-full">
-              REST API
+              React
             </span>
           </div>
         </div>
 
         <p class="max-w-xl text-sm sm:text-base leading-relaxed text-gray-600">
-          Desenvolvedor Full Stack com foco em PHP e Laravel, com experiência na construção de sites, sistemas web e
+          Desenvolvedor Full Stack com foco em NestJs e React, com experiência na construção de sites, sistemas web e
           APIs REST. Possuo conhecimento em desenvolvimento de aplicações completas, integração entre sistemas e criação
-          de soluções eficientes e escaláveis, utilizando também tecnologias como JavaScript, Vue.js e MySQL.
+          de soluções eficientes e escaláveis, utilizando também tecnologias como PHP, Laravel, JavaScript, NextJs, Vue.js e Angular.
         </p>
 
         <div class="flex flex-wrap items-center gap-3">
@@ -197,7 +192,7 @@
           <div
             class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white shadow-lg border border-gray-100 rounded-full px-5 py-2 whitespace-nowrap">
             <span class="text-xs font-bold uppercase text-[#2c3e50]">
-              PHP • Laravel
+              NestJs • React
             </span>
           </div>
         </div>

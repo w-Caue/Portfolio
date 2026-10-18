@@ -22,7 +22,7 @@
           <p>
             Sou desenvolvedor de software com foco em
             <strong class="text-[#2c3e50]">
-              PHP e Laravel
+              NestJs e React
             </strong>,
             apaixonado por transformar ideias e necessidades de negócio em
             aplicações eficientes, seguras e de fácil manutenção.
@@ -31,19 +31,8 @@
           <p>
             Possuo experiência no desenvolvimento de
             <strong class="text-[#2c3e50]">sites, sistemas web e APIs REST</strong>,
-            utilizando PHP e Laravel para construir soluções completas, desde as
-            regras de negócio e integrações até a persistência de dados. Também
-            trabalho com MySQL, JavaScript, Vue.js e Livewire, buscando sempre
-            aplicar boas práticas e desenvolver aplicações organizadas e escaláveis.
-          </p>
-
-          <p>
-            Também venho aprofundando meus conhecimentos em
-            <strong class="text-[#2c3e50]">
-              Java e Spring Boot
-            </strong>,
-            trabalhando com Spring Security, JPA/Hibernate, APIs REST,
-            Programação Orientada a Objetos e arquitetura em camadas.
+            utilizando NestJs e React para construir soluções completas, desde as
+            regras de negócio e integrações até a persistência de dados.
           </p>
 
           <p>
@@ -66,7 +55,7 @@
               </h3>
 
               <span class="text-xs text-[#79BFFA] uppercase">
-                PHP / Laravel
+                NestJs / React
               </span>
             </div>
 
@@ -78,7 +67,7 @@
               Desenvolvedor Full Stack
             </strong>,
             contribuindo no desenvolvimento de sites, sistemas web e APIs REST
-            utilizando PHP e Laravel, aplicando boas práticas de desenvolvimento
+            utilizando NestJs e React, aplicando boas práticas de desenvolvimento
             e buscando construir soluções eficientes, seguras e de fácil manutenção,
             enquanto continuo evoluindo tecnicamente através de desafios reais.
           </p>
@@ -100,12 +89,12 @@
         <div
           class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
           <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="devicon-php-plain colored text-3xl"></i>
+            <i class="devicon-nodejs-plain-wordmark colored text-3xl"></i>
           </div>
 
           <div>
             <h4 class="uppercase text-sm text-[#2c3e50]">
-              PHP
+              NodeJs
             </h4>
 
             <p class="text-xs text-gray-500 font-normal mt-1">
@@ -117,12 +106,12 @@
         <div
           class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
           <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="devicon-laravel-original colored text-3xl"></i>
+            <i class="devicon-nestjs-plain colored text-3xl"></i>
           </div>
 
           <div>
             <h4 class="uppercase text-sm text-[#2c3e50]">
-              Laravel
+              NestJs
             </h4>
 
             <p class="text-xs text-gray-500 font-normal mt-1">
@@ -134,12 +123,29 @@
         <div
           class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
           <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="devicon-mysql-original colored text-3xl"></i>
+            <i class="devicon-react-plain colored text-3xl"></i>
           </div>
 
           <div>
             <h4 class="uppercase text-sm text-[#2c3e50]">
-              MySQL
+              React
+            </h4>
+
+            <p class="text-xs text-gray-500 font-normal mt-1">
+              Desenvolvimento Front-end
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
+            <i class="devicon-postgresql-plain colored text-3xl"></i>
+          </div>
+
+          <div>
+            <h4 class="uppercase text-sm text-[#2c3e50]">
+              Postgresql
             </h4>
 
             <p class="text-xs text-gray-500 font-normal mt-1">
@@ -148,22 +154,6 @@
           </div>
         </div>
 
-        <div
-          class="group flex items-center gap-4 p-5 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#79BFFA]/15">
-            <i class="fa-solid fa-code text-[#2c3e50] text-xl"></i>
-          </div>
-
-          <div>
-            <h4 class="uppercase text-sm text-[#2c3e50]">
-              REST API
-            </h4>
-
-            <p class="text-xs text-gray-500 font-normal mt-1">
-              Integração entre sistemas
-            </p>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -181,19 +171,19 @@
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
         <div
           class="flex flex-col items-center justify-center gap-3 p-5 bg-gray-50 border border-gray-100 rounded-xl hover:bg-white hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <i class="devicon-php-plain colored text-3xl"></i>
+          <i class="devicon-nodejs-plain-wordmark colored text-3xl"></i>
 
           <span class="text-xs uppercase text-[#2c3e50]">
-            PHP
+            NodeJs
           </span>
         </div>
 
         <div
           class="flex flex-col items-center justify-center gap-3 p-5 bg-gray-50 border border-gray-100 rounded-xl hover:bg-white hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <i class="devicon-laravel-original colored text-3xl"></i>
+          <i class="devicon-nestjs-original colored text-3xl"></i>
 
           <span class="text-xs uppercase text-[#2c3e50]">
-            Laravel
+            NestJs
           </span>
         </div>
 
@@ -208,28 +198,28 @@
 
         <div
           class="flex flex-col items-center justify-center gap-3 p-5 bg-gray-50 border border-gray-100 rounded-xl hover:bg-white hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <i class="devicon-vuejs-plain colored text-3xl"></i>
+          <i class="devicon-react-plain colored text-3xl"></i>
 
           <span class="text-xs uppercase text-[#2c3e50]">
-            Vue.js
+            React
           </span>
         </div>
 
         <div
           class="flex flex-col items-center justify-center gap-3 p-5 bg-gray-50 border border-gray-100 rounded-xl hover:bg-white hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <i class="devicon-git-plain colored text-3xl"></i>
+          <i class="devicon-nextjs-plain colored text-3xl"></i>
 
           <span class="text-xs uppercase text-[#2c3e50]">
-            Git
+            NextJs
           </span>
         </div>
 
         <div
           class="flex flex-col items-center justify-center gap-3 p-5 bg-gray-50 border border-gray-100 rounded-xl hover:bg-white hover:border-[#79BFFA]/50 hover:shadow-md transition-all">
-          <i class="devicon-github-original text-3xl text-[#2c3e50]"></i>
+          <i class="devicon-angularjs-plain colored text-3xl"></i>
 
           <span class="text-xs uppercase text-[#2c3e50]">
-            GitHub
+            Angular
           </span>
         </div>
       </div>
