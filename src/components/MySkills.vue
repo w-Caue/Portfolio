@@ -44,10 +44,10 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
-                    <i class="devicon-php-plain colored text-4xl"></i>
+                    <i class="devicon-nodejs-plain-wordmark colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">
-                        PHP
+                        Node.js
                     </h4>
 
                     <span class="text-[10px] uppercase text-gray-400 font-normal">
@@ -60,26 +60,10 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
-                    <i class="devicon-java-plain colored text-4xl"></i>
+                    <i class="devicon-nestjs-original colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">
-                        Java
-                    </h4>
-
-                    <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Back-end
-                    </span>
-                </div>
-
-                <div class="flex flex-col items-center justify-center gap-3 p-5
-                 bg-gray-50 border border-gray-100 rounded-xl
-                 hover:bg-white hover:border-[#79BFFA]/50
-                 hover:shadow-md hover:-translate-y-1
-                 transition-all duration-300 text-center">
-                    <i class="devicon-spring-original colored text-4xl"></i>
-
-                    <h4 class="text-xs uppercase text-[#2c3e50]">
-                        Spring Boot
+                        NestJs
                     </h4>
 
                     <span class="text-[10px] uppercase text-gray-400 font-normal">
@@ -92,34 +76,14 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
-                    <div class="flex items-center justify-center h-10 text-[#79BFFA]">
-                        <i class="fa-solid fa-shield-halved text-3xl"></i>
-                    </div>
+                    <i class="devicon-php-plain colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">
-                        Spring Security
+                        PHP
                     </h4>
 
                     <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Segurança
-                    </span>
-                </div>
-
-                <div class="flex flex-col items-center justify-center gap-3 p-5
-                 bg-gray-50 border border-gray-100 rounded-xl
-                 hover:bg-white hover:border-[#79BFFA]/50
-                 hover:shadow-md hover:-translate-y-1
-                 transition-all duration-300 text-center">
-                    <div class="flex items-center justify-center h-10 text-[#79BFFA]">
-                        <i class="fa-solid fa-database text-3xl"></i>
-                    </div>
-
-                    <h4 class="text-xs uppercase text-[#2c3e50]">
-                        JPA / Hibernate
-                    </h4>
-
-                    <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Persistência
+                        Back-end
                     </span>
                 </div>
 
@@ -184,6 +148,38 @@
                  hover:bg-white hover:border-[#79BFFA]/50
                  hover:shadow-md hover:-translate-y-1
                  transition-all duration-300 text-center">
+                    <i class="devicon-react-plain colored text-4xl"></i>
+
+                    <h4 class="text-xs uppercase text-[#2c3e50]">
+                        React
+                    </h4>
+
+                    <span class="text-[10px] uppercase text-gray-400 font-normal">
+                        Biblioteca
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 p-5
+                 bg-gray-50 border border-gray-100 rounded-xl
+                 hover:bg-white hover:border-[#79BFFA]/50
+                 hover:shadow-md hover:-translate-y-1
+                 transition-all duration-300 text-center">
+                    <i class="devicon-nextjs-plain colored text-4xl"></i>
+
+                    <h4 class="text-xs uppercase text-[#2c3e50]">
+                        Next js
+                    </h4>
+
+                    <span class="text-[10px] uppercase text-gray-400 font-normal">
+                        Framework
+                    </span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center gap-3 p-5
+                 bg-gray-50 border border-gray-100 rounded-xl
+                 hover:bg-white hover:border-[#79BFFA]/50
+                 hover:shadow-md hover:-translate-y-1
+                 transition-all duration-300 text-center">
                     <i class="devicon-vuejs-plain colored text-4xl"></i>
 
                     <h4 class="text-xs uppercase text-[#2c3e50]">
@@ -208,38 +204,6 @@
 
                     <span class="text-[10px] uppercase text-gray-400 font-normal">
                         Framework
-                    </span>
-                </div>
-
-                <div class="flex flex-col items-center justify-center gap-3 p-5
-                 bg-gray-50 border border-gray-100 rounded-xl
-                 hover:bg-white hover:border-[#79BFFA]/50
-                 hover:shadow-md hover:-translate-y-1
-                 transition-all duration-300 text-center">
-                    <i class="devicon-html5-plain colored text-4xl"></i>
-
-                    <h4 class="text-xs uppercase text-[#2c3e50]">
-                        HTML5
-                    </h4>
-
-                    <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Markup
-                    </span>
-                </div>
-
-                <div class="flex flex-col items-center justify-center gap-3 p-5
-                 bg-gray-50 border border-gray-100 rounded-xl
-                 hover:bg-white hover:border-[#79BFFA]/50
-                 hover:shadow-md hover:-translate-y-1
-                 transition-all duration-300 text-center">
-                    <i class="devicon-css3-plain colored text-4xl"></i>
-
-                    <h4 class="text-xs uppercase text-[#2c3e50]">
-                        CSS3
-                    </h4>
-
-                    <span class="text-[10px] uppercase text-gray-400 font-normal">
-                        Styling
                     </span>
                 </div>
 
@@ -305,15 +269,15 @@
                    hover:shadow-md hover:-translate-y-1
                    transition-all duration-300 text-center">
                         <div class="flex items-center justify-center h-10 text-[#79BFFA]">
-                            <i class="fa-solid fa-table text-3xl"></i>
+                            <i class="devicon-postgresql-plain colored text-4xl"></i>
                         </div>
 
                         <h4 class="text-xs uppercase text-[#2c3e50]">
-                            Hibernate
+                            Postgresql
                         </h4>
 
                         <span class="text-[10px] uppercase text-gray-400 font-normal">
-                            ORM
+                            Database
                         </span>
                     </div>
 
@@ -392,14 +356,14 @@
                    hover:bg-white hover:border-[#79BFFA]/50
                    hover:shadow-md hover:-translate-y-1
                    transition-all duration-300 text-center">
-                        <i class="devicon-laravel-original colored text-4xl"></i>
+                        <i class="devicon-docker-plain colored text-4xl"></i>
 
                         <h4 class="text-xs uppercase text-[#2c3e50]">
-                            Laravel
+                            Docker
                         </h4>
 
                         <span class="text-[10px] uppercase text-gray-400 font-normal">
-                            Framework PHP
+                            Plataforma
                         </span>
                     </div>
 
@@ -416,12 +380,12 @@
                 </span>
                 
                 <h3 class="mt-2 text-xl sm:text-2xl uppercase text-white">
-                    PHP + Laravel
+                    NestJs + React
                 </h3>
 
                 <p class="mt-2 text-sm text-gray-300 font-normal leading-relaxed max-w-xl">
                     Experiência no desenvolvimento de sites, sistemas web e APIs REST,
-                    utilizando PHP e Laravel, com foco em regras de negócio, integração
+                    utilizando NestJs e React, com foco em regras de negócio, integração
                     entre sistemas, persistência de dados e construção de aplicações
                     eficientes, seguras e de fácil manutenção.
                 </p>
